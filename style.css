@@ -1,0 +1,93 @@
+/* General Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Profile Image */
+.profile {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* Cards */
+.card {
+    background: #eeeeee;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background: #ddd;
+}
+
+/* Images */
+img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Contact Links */
+#contact p {
+    margin: 5px 0;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode header {
+    background: black;
+}
+
+.dark-mode section {
+    background: #1e1e1e;
+}
+
+.dark-mode .card {
+    background: #2c2c2c;
+}
